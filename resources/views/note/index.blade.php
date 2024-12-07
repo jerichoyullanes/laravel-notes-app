@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <!-- Breathing in, I calm body and mind. Breathing out, I smile. - Thich Nhat Hanh -->
     <div class="note-container">
 
@@ -29,4 +29,4 @@
 
         {{ $notes->links() }}
     </div>
-</x-layout>
+</x-app-layout>

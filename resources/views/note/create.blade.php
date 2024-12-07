@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <!-- You must be the change you wish to see in the world. - Mahatma Gandhi -->
 
     <div class="note-container single-note">
@@ -13,4 +13,4 @@
         </form>
     </div>
 
-</x-layout>
+</x-app-layout>

@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <!-- When there is no desire, all things are at peace. - Laozi -->
 
     <div class="note-container single-note">
@@ -15,4 +15,4 @@
             </div>
         </form>
     </div>
-</x-layout>
+</x-app-layout>

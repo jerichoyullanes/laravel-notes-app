@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <!-- Because you are alive, everything is possible. - Thich Nhat Hanh -->
 
     <div class="note-container single-note">
@@ -19,4 +19,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+</x-app-layout>

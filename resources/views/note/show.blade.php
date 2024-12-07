@@ -6,7 +6,11 @@
             <h1>Note: {{ $note->created_at }}</h1>
             <div class="note-buttons">
                 <a href="{{ route('note.edit', $note) }}" class="note-edit-button">Edit</a>
-                <button class="note-delete-button">Delete</button>
+                <form action="{{ route('note.destroy', $note) }}" method="POST" class="note-delete-button">
+                    @csrf
+                    @method('DELETE')
+                    <button class="note-delete-button">Delete</button>
+                </form>
             </div>
         </div>
         <div class="note">

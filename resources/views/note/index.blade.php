@@ -1,6 +1,6 @@
 <x-app-layout>
     <!-- Breathing in, I calm body and mind. Breathing out, I smile. - Thich Nhat Hanh -->
-    <div class="note-container">
+    <div class="note-container py-12">
 
         {{-- Two ways to have custome links for a tags' href attribute --}}
         {{-- <a href="/note/create" class="new-note-button"> --}}
@@ -27,6 +27,8 @@
             @endforeach
         </div>
 
-        {{ $notes->links() }}
+        <div class="p-6">
+            {{ $notes->links() }}
+        </div>
     </div>
 </x-app-layout>
